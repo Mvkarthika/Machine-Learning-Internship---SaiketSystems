@@ -109,3 +109,66 @@ Google Colab
 🔹 Outcome
 
 The dataset was successfully divided into train (80%) and test (20%) sets, ensuring fair model evaluation and avoiding data leakage in future tasks.
+
+📌 Task 3: Feature Selection & Correlation Analysis
+🔹 Objective
+
+Identify the most influential features contributing to customer churn by applying correlation analysis and domain knowledge.
+
+🔹 Steps Performed
+
+Dataset Upload
+
+Loaded the preprocessed dataset (Telco_Customer_Churn_Dataset.csv) into Google Colab.
+
+Feature-Target Correlation
+
+Calculated correlation of all features with the target variable Churn.
+
+Ranked features based on absolute correlation values.
+
+Top Features Selection
+
+Identified Top 10 most influential features affecting churn.
+
+Focused on attributes like tenure, contract type, internet service, monthly charges, etc.
+
+Correlation Heatmap
+
+Created a heatmap visualization of the top 10 features.
+
+Helped in spotting feature relationships and multicollinearity.
+
+Domain Knowledge Validation
+
+Verified feature importance with business understanding.
+
+Example: Short tenure, high monthly charges, and contract type are logically linked to higher churn rates.
+
+🔹 Tools & Libraries
+
+Python
+
+Pandas
+
+NumPy
+
+Seaborn
+
+Matplotlib
+
+Scikit-learn
+
+Google Colab
+
+🔹 Skills Practiced
+
+✅ Feature selection techniques
+✅ Correlation analysis
+✅ Visualization with heatmaps
+✅ Applying domain knowledge to validate attributes
+
+🔹 Outcome
+
+Identified the Top 10 features influencing customer churn with statistical support and business logic.
+This step ensures better model interpretability and improves prediction accuracy by focusing on the most relevant attributes.
