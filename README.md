@@ -172,3 +172,70 @@ Google Colab
 
 Identified the Top 10 features influencing customer churn with statistical support and business logic.
 This step ensures better model interpretability and improves prediction accuracy by focusing on the most relevant attributes.
+
+📌 Task 6: Model Evaluation
+🔹 Objective
+
+Evaluate the performance of a Logistic Regression model built on the Telco Customer Churn dataset using multiple classification metrics.
+
+🔹 Steps Performed
+
+Dataset Upload
+
+Loaded the preprocessed dataset (Telco_Customer_Churn_Dataset.csv) into Google Colab.
+
+Train-Test Split
+
+Used the 80/20 split from Task 2 for fair evaluation.
+
+Ensured stratification to maintain class balance.
+
+Model Training
+
+Trained a Logistic Regression model using the selected features from Task 3.
+
+Predictions
+
+Made predictions on the test dataset.
+
+Evaluation Metrics
+
+Calculated:
+✔️ Accuracy Score
+✔️ Precision
+✔️ Recall
+✔️ F1-Score
+
+Confusion Matrix Visualization
+
+Plotted a confusion matrix heatmap in shaded pink for intuitive interpretation.
+
+Highlighted true positives, true negatives, false positives, and false negatives.
+
+🔹 Tools & Libraries
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Seaborn
+
+Matplotlib
+
+Google Colab
+
+🔹 Skills Practiced
+
+✅ Model training with Logistic Regression
+✅ Classification metrics interpretation
+✅ Confusion matrix analysis
+✅ Visualization of evaluation results
+
+🔹 Outcome
+
+Successfully evaluated a baseline model for customer churn prediction.
+Gained insights into model performance beyond accuracy, emphasizing the role of precision, recall, and F1-score for better decision-making in churn prediction.
